@@ -1,0 +1,10 @@
+<h1>Jai Ganesha</h1>
+<h2>Word Counter</h2>
+
+<form action="{% url 'countpage' %}">
+    <textarea cols="40" rows="5" name="fulltext"></textarea>
+    <br/>
+    <input type="submit" value="count!"/>
+
+</form>
+<a href="{% url 'about' %}">About Us</a>
